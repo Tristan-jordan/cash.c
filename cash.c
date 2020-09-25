@@ -39,7 +39,7 @@ int main(void)
             cnusd++;
         }
         while (change >= 0.01);
-    printf("Change: %.2f\n", change);
+    
 printf("Coins used: %i\n", cnusd);
  
 }
