@@ -8,7 +8,7 @@ int main(void)
 
     do
     change = get_float("Change owed?: $");
-    while (change < 0.01);
+    while (change <= 0.00);
 
     do
     if (change >= 0.25)
