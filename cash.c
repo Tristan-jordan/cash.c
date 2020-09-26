@@ -8,7 +8,7 @@ int main(void)
 
     do
     change = get_float("Change owed?: $");
-    while (change <= 0.00);
+    while (change < 0.00);
 
     do
     if (change >= 0.25)
@@ -33,12 +33,12 @@ int main(void)
         }   
 
         do
-        if (change >= 0.01 && change < 0.05)
+        if (change > 0.00 && change < 0.05)
         {
             change = change - cn1;
             cnusd++;
         }
-        while (change >= 0.01);
+        while (change > 0.00);
     
 printf("%i\n", cnusd);
  
