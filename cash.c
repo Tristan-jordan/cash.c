@@ -45,6 +45,6 @@ int main(void)
         }
         while (change >= 1);
     
-printf("Coins used: %.2d\n", cnusd);
+printf("%.2d\n", cnusd);
     
 }
