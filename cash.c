@@ -46,5 +46,5 @@ int main(void)
         while (change >= 1);
     
 printf("%d\n", cnusd);
-    
+    return(0);
 }
