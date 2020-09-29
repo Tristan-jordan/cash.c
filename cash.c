@@ -29,7 +29,7 @@ int main(void)
             cnusd++;
 
         }
-     while (change > 10);   
+     while (change >= 10);   
      
         if (change >= 5 && change < 10)
         {
