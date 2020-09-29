@@ -45,6 +45,6 @@ int main(void)
         }
         while (change >= 1);
     
-printf("%.2d\n", cnusd);
+printf("%d\n", cnusd);
     
 }
